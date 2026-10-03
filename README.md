@@ -31,3 +31,6 @@ Coins without a saved model still work, using a quick ARIMA-only forecast.
 ## Deploy online (Streamlit Community Cloud)
 Push the whole folder **including `models/`** to GitHub, then create the app at
 https://share.streamlit.io with `app.py` as the main file (Python 3.11 or 3.12).
+
+## Website Link 
+https://cryptoapp-lrfapa8dv3n34pbs8x7t8w.streamlit.app/
