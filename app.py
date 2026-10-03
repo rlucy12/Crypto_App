@@ -211,9 +211,9 @@ cards([
          value_cls={"Bullish": "up", "Bearish": "down"}.get(outlook, "")),
 ])
 
-if r["mode"] == "arima_quick":
-    st.info(f"{display_name(ticker)} uses a quick statistical forecast. For the full deep-learning "
-            f"model, run `python train.py --coins {ticker.replace('-USD', '').lower()}`.")
+# if r["mode"] == "arima_quick":
+#     st.info(f"{display_name(ticker)} uses a quick statistical forecast. For the full deep-learning "
+#             f"model, run `python train.py --coins {ticker.replace('-USD', '').lower()}`.")
 
 tab_fc, tab_mkt, tab_cmp, tab_method = st.tabs(["Forecast", "Market data", "Compare", "Methodology"])
 
